@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri, , segoe ui, arial, tahoma, sans-serif;
+}
+
+body{
+	background-color: #b5b1ff;
+}
+
+#wrapper{
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background: url(logo.jpg) repeat-x #d8d8d8;
+	height: 70px;
+	width: 100%;
+	padding: 5px;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+#header img{ width: 130px; height: 40px; }
+
+#menu-utama{
+	margin-top: 3px;
+	list-style: none;
+}
+
+#menu-utama li{
+	float: left;
+	padding: 8px 20px;
+	border-right: 2px solid #b5b1ff;
+}
+
+#menu-utama li a{
+	color: #555555;
+	text-decoration: none;
+}
+
+#daftar-form{
+	width: 100%;
+}
+
+.artikel{
+	background: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.artikel h1{
+	text-align: center;
+}
+
+.artikel p{
+	margin: 10px 0;
+}
+
+.artikel img{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+	height: 250px;
+}
+
+.artikel b{
+	color: #616060;
+	background: #DDDDDD;
+	padding: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#daftar-form form{
+	float: left;
+	margin-top: 7px;
+}
+
+#daftar-form form input{
+	height: 25px;
+	margin-bottom: 7px;
+}
+#daftar-form form select{
+	height: 30px;
+	margin-bottom: 7px;
+}
+
+#footer{
+	clear: both;
+	margin: 20px 0;
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 5px;
+	color: #555555;
+}
